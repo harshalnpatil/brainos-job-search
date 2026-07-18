@@ -1,10 +1,18 @@
 # PM Job Search Templates
 
-Markdown templates and scaffold scripts for Product Manager job-search prep. Designed for use with [Cursor](https://cursor.com) or any AI assistant that can follow structured notes.
+## Problem
 
-## Why these exist
+Interview preparation fragments across job descriptions, company research, interviewer notes, referrals, and take-homes.
 
-Interview prep scatters fast across JDs, company research, person notes, referrals, and take-homes. These templates keep one dated company folder per opportunity with consistent filenames and agent-friendly section rules, so you spend less time reorganizing and more time on substance.
+## What this toolkit does
+
+These Markdown templates and scaffold scripts create one dated, consistently named folder per Product Manager opportunity. They work with [Cursor](https://cursor.com) or any AI assistant that can follow structured notes.
+
+## Public-safe scope
+
+The repository contains reusable templates and a fictional Acme demo only. Your generated `companies/` folders are gitignored, so personal job-search notes, employer information, and contacts are not part of this public repository.
+
+## How it works
 
 ## Quick start
 
@@ -21,7 +29,11 @@ chmod +x scripts/create-company-from-templates.zsh
 ./scripts/create-company-from-templates.zsh Acme Inc
 ```
 
-The script creates `companies/YYYY_MM_DD_<slug>/`, copies markdown templates, and renames `CompanyName_*` files to your company slug.
+The script creates `companies/YYYY_MM_DD_<slug>/`, copies Markdown templates, and renames `CompanyName_*` files to your company slug.
+
+![Generated fictional company folder](docs/images/generated-company-folder.png)
+
+*Generated folder structure for the fictional `Acme Inc` example. Real generated folders stay local and gitignored.*
 
 Custom output location:
 
@@ -74,19 +86,15 @@ pm-job-search-templates/
 - Person notes follow a single-file model: keep full `## preps` after the call; capture what was said under `## Notes in call`.
 - Full rules: [`docs/person_notes_convention.md`](docs/person_notes_convention.md)
 
-## Screenshots
+## Visual evidence
 
-PowerShell (Windows):
+PowerShell example on Windows, using fictional `Acme Inc` input:
 
 ![PowerShell example](docs/images/powershell-example.png)
 
-zsh (macOS / Linux):
+zsh example on macOS or Linux, using fictional `Acme Inc` input:
 
 ![zsh example](docs/images/zsh-example.png)
-
-Generated company folder:
-
-![Generated folder](docs/images/generated-company-folder.png)
 
 ## Attribution
 
