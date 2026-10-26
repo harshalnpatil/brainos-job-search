@@ -1,4 +1,8 @@
-# PM Job Search Templates
+# BrainOS Job Search
+
+[![BrainOS domain pack](https://img.shields.io/badge/BrainOS-domain_pack-a371f7)](https://github.com/harshalnpatil/BrainOS_starter_kit)
+[![Starter kit](https://img.shields.io/badge/base-BrainOS_starter_kit-3fb950)](https://github.com/harshalnpatil/BrainOS_starter_kit)
+[![License: MIT](https://img.shields.io/badge/License-MIT-3fb950)](LICENSE)
 
 ## Problem
 

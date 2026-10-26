@@ -9,3 +9,4 @@ Dated entries, newest first. One line per meaningful change. Categories: Added /
 
 ### Changed
 - Renamed repository from pm-job-search-templates to brainos-job-search (GitHub redirects the old URL).
+- README: title updated to BrainOS Job Search; added badges linking the starter kit and MIT license.
