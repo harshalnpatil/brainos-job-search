@@ -8,11 +8,13 @@ Interview preparation fragments across job descriptions, company research, inter
 
 These Markdown templates and scaffold scripts create one dated, consistently named folder per Product Manager opportunity. They work with [Cursor](https://cursor.com) or any AI assistant that can follow structured notes.
 
+### BrainOS domain pack
+
+This repo also slots in as the career domain of a [BrainOS](https://github.com/harshalnpatil/BrainOS_starter_kit) workspace: point your root router at this folder's `AGENTS.md`, or scaffold company folders inside your brain.
+
 ## Public-safe scope
 
 The repository contains reusable templates and a fictional Acme demo only. Your generated `companies/` folders are gitignored, so personal job-search notes, employer information, and contacts are not part of this public repository.
-
-## How it works
 
 ## Quick start
 
@@ -52,6 +54,7 @@ See a committed demo output in [`examples/2026_07_05_acme_inc/`](examples/2026_0
 ```text
 pm-job-search-templates/
 ├── README.md
+├── AGENTS.md
 ├── LICENSE
 ├── scripts/
 │   ├── create-company-from-templates.ps1
@@ -60,6 +63,7 @@ pm-job-search-templates/
 │   └── CompanyName_*.md
 ├── docs/
 │   ├── person_notes_convention.md
+│   ├── changelog.md
 │   └── images/
 ├── examples/
 │   └── 2026_07_05_acme_inc/
@@ -78,6 +82,7 @@ pm-job-search-templates/
 | `{slug}_referral_messages.md` | Referral and intro drafts (LinkedIn, email, forwardable note). |
 | `{slug}_write_up_application.md` | Application narrative aligned with JD and prep. |
 | `{slug}_take_home_assignment.md` | Take-home case structure (9 steps: problem through risks). |
+| `{slug}_diary.md` | Application journey: dated event log and outcome record for the opportunity. |
 
 ## Cursor / AI tips
 
