@@ -6,3 +6,6 @@ Dated entries, newest first. One line per meaningful change. Categories: Added /
 
 ### Added
 - BrainOS domain pack: root AGENTS.md router, application diary template (+ Acme example), docs/changelog.md.
+
+### Changed
+- Renamed repository from pm-job-search-templates to brainos-job-search (GitHub redirects the old URL).

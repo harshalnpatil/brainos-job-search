@@ -19,14 +19,14 @@ The repository contains reusable templates and a fictional Acme demo only. Your 
 ## Quick start
 
 ```powershell
-git clone https://github.com/harshalnpatil/pm-job-search-templates.git
-cd pm-job-search-templates
+git clone https://github.com/harshalnpatil/brainos-job-search.git
+cd brainos-job-search
 ./scripts/create-company-from-templates.ps1 "Acme Inc"
 ```
 
 ```zsh
-git clone https://github.com/harshalnpatil/pm-job-search-templates.git
-cd pm-job-search-templates
+git clone https://github.com/harshalnpatil/brainos-job-search.git
+cd brainos-job-search
 chmod +x scripts/create-company-from-templates.zsh
 ./scripts/create-company-from-templates.zsh Acme Inc
 ```
@@ -52,7 +52,7 @@ See a committed demo output in [`examples/2026_07_05_acme_inc/`](examples/2026_0
 ## Repo layout
 
 ```text
-pm-job-search-templates/
+brainos-job-search/
 ├── README.md
 ├── AGENTS.md
 ├── LICENSE
